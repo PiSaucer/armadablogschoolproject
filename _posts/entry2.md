@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Juding a book by its cover
+title: entry 2
 ---
 
 Everyone says not to judge a book by it's cover, however, Everyone subconsiouly judges.
