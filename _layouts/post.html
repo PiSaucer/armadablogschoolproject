@@ -1,16 +1,18 @@
---- layout: default ---
+---
+layout: default
+---
 
 <article class="post">
-    <h1>{{ page.title }}</h1>
-    <span>{{ post.content | reading_time }}</span>
+  <h1>{{ page.title }}</h1>
+  <span>Estimated reading time: {{ content | reading_time }}</span>
 
-    <div class="entry">
-        {{ content }}
-    </div>
+  <div class="entry">
+    {{ content }}
+  </div>
 
-    <div class="date">
-        Written on {{ page.date | date: "%B %e, %Y" }}
-    </div>
+  <div class="date">
+    Written on {{ page.date | date: "%B %e, %Y" }}
+  </div>
 
-    {% include disqus.html %}
+  {% include disqus.html %}
 </article>
