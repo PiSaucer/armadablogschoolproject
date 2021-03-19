@@ -84,9 +84,3 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-
-# risan/jekyll-reading-time plugin
-reading_time:
-  second_plural: "seconds"    # default: seconds
-  minute_singular: "minute"  # default: minute
-  minute_plural: "minutes"    # default: minutes
