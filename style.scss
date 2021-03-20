@@ -283,6 +283,14 @@ footer {
   text-align: center;
 }
 
+#darkToggle {
+    background: #3498db;
+    color: #fff;
+    border-radius: 50px;
+    margin: 0 0 0 30px;
+    padding: 10px 25px;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
