@@ -1,20 +1,28 @@
 .dark-mode {
-  background-color: black;
+  background-color: #121212;
   color: white;
 }
 
 .dark-mode a {
-   background-color: black;
+   background-color: #121212;
   color: white;
 }
 
 .dark-mode button {
-    background-color: black;
+    background-color: #121212;
   color: white;
-  border-color: black;
+  border-color: #121212;
 }
 
 .dark-mode .wrapper-footer {
-    background-color: black;
+    background-color: #121212;
     color: white;
+}
+
+.dark-mode .posts>.post {
+  border-bottom: 1px solid #333; 
+}
+
+.dark-mode ::selection {
+    color: #E0E0E0;
 }
