@@ -6,12 +6,14 @@
 .dark-mode .wrapper-footer {
     background-color: #121212;
     color: white;
+    border-top: 1px solid #121212;
+    border-bottom: 1px solid #121212;
 }
 
 .dark-mode .posts>.post {
   border-bottom: 1px solid #333; 
 }
 
-.dark-mode h1 a {
+.dark-mode h1 {
     color: #E0E0E0;
 }
