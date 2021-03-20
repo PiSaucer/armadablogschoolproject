@@ -13,3 +13,8 @@
   color: white;
   border-color: black;
 }
+
+.dark-mode .wrapper-footer {
+    background-color: black;
+    color: white;
+}
