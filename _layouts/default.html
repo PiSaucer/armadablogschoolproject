@@ -28,6 +28,27 @@
     <meta name="msapplication-TileImage" content="{{ site.baseurl }}/favicon/mstile-144x144.png?v=WGN3Ykknqm">
     <meta name="msapplication-config" content="f{{ site.baseurl }}/avicon/browserconfig.xml?v=WGN3Ykknqm">
     <meta name="theme-color" content="#ffffff">
+    
+    <!-- Dark Mode -->
+<script>
+		// Do this before the body gets parsed
+		if (localStorage.getItem('darkmode') === '1') {
+			document.documentElement.classList.add('dark-mode');
+		}
+	</script>
+	<style>
+		.dark-mode body {
+			background: black;
+		}
+	
+		.dark-mode .light-only {
+			display: none;
+		}
+	
+		html:not(.dark-mode) .dark-only {
+			display: none;
+		}
+	</style>
 </head>
 
 <body>
@@ -61,6 +82,15 @@
             </footer>
         </div>
     </div>
+    
+    <script>
+	document.querySelector('#darkToggle').addEventListener('click', function () {
+		var wasDarkMode = localStorage.getItem('darkmode') === '1';
+
+		localStorage.setItem('darkmode', wasDarkMode ? '0' : '1');
+		document.documentElement.classList[wasDarkMode ? 'remove' : 'add']('dark-mode');
+	});
+</script>
 
     {% include analytics.html %}
 </body>
