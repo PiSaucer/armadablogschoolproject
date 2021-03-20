@@ -4,10 +4,14 @@
 }
 
 .dark-mode .wrapper-footer {
-    background-color: #404040;
+    background-color: #181818;
     color: white;
-    border-top: 1px solid #404040;
-    border-bottom: 1px solid #404040;
+    border-top: 1px solid #181818;
+    border-bottom: 1px solid #181818;
+}
+
+.dark-mode .masthead {
+  border-bottom: 1px solid #333;
 }
 
 .dark-mode .posts>.post {
@@ -20,4 +24,8 @@
 
 .dark-mode nav a {
   color: white;
+}
+
+.dark-mode .date {
+  color: #333;
 }
