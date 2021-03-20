@@ -3,17 +3,6 @@
   color: white;
 }
 
-.dark-mode a {
-   background-color: #121212;
-  color: white;
-}
-
-.dark-mode button {
-    background-color: #121212;
-  color: white;
-  border-color: #121212;
-}
-
 .dark-mode .wrapper-footer {
     background-color: #121212;
     color: white;
@@ -23,6 +12,6 @@
   border-bottom: 1px solid #333; 
 }
 
-.dark-mode ::selection {
+.dark-mode h1 a {
     color: #E0E0E0;
 }
