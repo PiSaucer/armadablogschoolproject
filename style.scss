@@ -296,3 +296,11 @@ footer {
     padding: 10px 25px;
     border: 1px solid transparent;
 }
+
+pre {
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
