@@ -35,3 +35,7 @@
     border: 1px solid rgba(0, 0, 0, 0);
     color: #e0e0e0;
 }
+
+.dark-mode hr {
+    color: #333;
+}
