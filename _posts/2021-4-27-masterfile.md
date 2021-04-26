@@ -3,6 +3,8 @@ layout: post
 title: Masterfile
 ---
 
+All the entries in one master entry
+
 # Judging a book by its cover
 
 Everyone says not to judge a book by its cover; however, Everyone subconsciously judges.
