@@ -654,5 +654,3 @@ Zach found Knotcher asking for an autograph. He was almost unrecognizable with t
 Zach has a baby brother, Xavier Ulysses Lightman. Zach decided that when JR grows up that he should have the jacket. His mom has to find a new job since they found the cure for all cancers.
 
 To Zach, the "test" seems more a trap. They still haven't released any details about the other species. Zach realizes that he has to move on from Starbase Ace and decide to be one of the Earth's ambassadors for Sodality. Zach no longers finds himself daydreaming of adventure.
-
-# Review
